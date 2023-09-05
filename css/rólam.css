@@ -1,0 +1,80 @@
+ body {
+    background-color: #DDD0C8;
+ }
+
+ h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #323232;
+ }
+
+ p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color:#323232;
+    font-size: 20px;
+ }
+ 
+ li, a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+ }
+ 
+ .links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ 
+ .links {
+    background-color: #323232;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+ }
+
+ .photo {
+    margin: 100px;
+ }
+
+ .father {
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+
+ img {
+    height: 300px;
+    
+ }
+
+ .about-me {
+    margin-top: 100px;
+    margin-right: 150px;
+ }
+
+ a:link {
+    color: whitesmoke;
+ }
+ 
+ a:visited {
+    color: whitesmoke;
+ }
+ 
+ a:hover {
+    color:rgb(196, 178, 178);
+ }
+ 
+ a:active {
+    color: whitesmoke;
+ }
+
+ a.active {
+   color: rgb(196, 178, 178);
+}

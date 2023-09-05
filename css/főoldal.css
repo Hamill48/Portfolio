@@ -1,0 +1,77 @@
+.links {
+   background-color: #323232;
+   top: 0;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   text-decoration: none;
+   position: fixed;
+   width: 100%;
+}
+
+.bemutatkozó {
+   margin-top: 220px;   
+}
+
+h1, p {
+   margin-top: 10px;
+   margin-left: 50px;
+}
+
+body {
+   background-color: #DDD0C8;
+   color: #323232;
+}
+
+li, a {
+   font-weight: 500;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.links li {
+   list-style: none;
+   display: inline-block;
+   padding: 0px 40px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   
+}
+
+div.több-rólam {
+   margin-left: 50px;
+   margin-top: 80px;
+   background-color: #1F1E25;
+   padding: 7px 17px;
+   display: inline-block;
+   border-radius: 13px;
+ }
+
+ div.több-rólam:hover {
+   margin-left: 50px;
+   margin-top: 80px;
+   background-color: #151418;
+   padding: 7px 17px;
+   display: inline-block;
+   border-radius: 13px;
+}
+
+a:link {
+   color: whitesmoke;
+}
+
+a:visited {
+   color: whitesmoke;
+}
+
+a:hover {
+   color:rgb(196, 178, 178);
+}
+
+a:active {
+   color: rgb(196, 178, 178);
+}
+
+a.active {
+   color: rgb(196, 178, 178);
+}
