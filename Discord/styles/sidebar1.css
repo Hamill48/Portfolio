@@ -1,0 +1,110 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar1 {
+    background-color: #191b1d;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;    
+}
+
+.active-div {
+    position: absolute;
+    height: 40px;
+    width: 6px;
+    left: -1px;
+    top: 15px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 17px 18px 17px 0;
+}
+
+.discord-logo-div {     /*active*/
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #5865F2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-radius 0.3s, background-color 0.2s;
+    margin-bottom: 7px;
+}
+
+.add-server-div, .compass-div, .download-div {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #373b3f;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-radius 0.3s, background-color 0.2s;
+    margin-bottom: 7px;
+}
+
+.discord-logo-div:hover {
+    cursor: pointer;
+}
+
+.discord-logo {
+    width: 27px;
+}
+
+.separator {
+    width: 30px;
+    height: 2.3px;
+    background-color: #373b3f;
+    border-radius: 20px;
+    margin-bottom: 7px;
+}
+
+.hover-div1 {
+    position: absolute;
+    height: 20px;
+    width: 6px;
+    left: -1px;
+    top: 90px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 17px 18px 17px 0;
+}
+
+.channel-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit:cover;
+    transition: border-radius 0.3s;
+    margin-bottom: 7px;    
+}
+
+.channel-pic:hover {
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.add-server-div:hover, .compass-div:hover, .download-div:hover {
+    background-color: rgb(35, 165, 89);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.add-server, .compass {
+    width: 25px;
+}
+
+.add-server-hide, .compass-hide, .download-hide {
+    display: none;
+}
+
+.download {
+    width: 40px;
+}

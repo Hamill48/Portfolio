@@ -1,0 +1,275 @@
+.sidebar2 {
+    width: 235px;
+    background-color: #2c2d30;
+    position: fixed;
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 10px;
+}
+
+.search-chat {
+    width: 200px;
+    height: 15px;
+    background-color: #191b1d;
+    padding: 10px;
+    color: rgb(153, 153, 153);
+    font-size: 14.5px;
+    margin-left: 5px;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.search-chat:hover {
+    cursor: pointer;
+}
+
+.separator2 {
+    width: 235px;
+    height: 2px;
+    background-color: #191b1d48;
+    margin-bottom: 10px;
+}
+
+.friends-div {
+    background-color: #3f4046;
+    cursor: pointer;
+    .friends, .nitro, .shop {
+        color: #dadada;
+    }
+}
+
+.friends-div , .nitro-div, .shop-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.nitro-div:hover, .shop-div:hover {
+    background-color: #3f4046;
+    cursor: pointer;
+    .friends, .nitro, .shop {
+        color: #dadada;
+    }
+}
+
+.friends-icon-hide, .nitro-icon-hide, .shop-icon-hide {
+    display: none;
+}
+
+.friends-icon {
+    width: 45px;
+}
+
+.friends, .nitro, .shop {
+    color: #7e828b;
+    font-weight: bold;
+}
+
+.nitro-icon-div, .shop-icon-div {
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+.nitro-icon {
+    width: 30px;
+}
+
+.shop-div {
+    margin-bottom: 20px;
+}
+
+.shop-icon {
+    width: 25px;
+}
+
+.shop-icon-div {
+    margin-left: 9px;
+}
+
+.dm {
+    color: #7e828b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dm:hover {
+    .dm-text {
+        color: rgb(218, 218, 218);
+    }
+}
+
+.dm-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dm-plus {
+    font-size: 20px;
+}
+
+.dm-plus:hover {
+    color: #969aa5;
+    cursor: pointer;
+}
+
+.friend1-div, .friend2-div, .friend3-div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.friend1-div:hover, .friend2-div:hover, .friend3-div:hover {
+    background-color: #3f4046;
+    cursor: pointer;
+    .friend1-name, .friend2-name, .friend3-name {
+        color: #dadada;
+    }
+}
+
+.friend {
+    width: 30px;
+    border-radius: 40px;
+    margin-left: 5px;
+}
+
+.isonline-friend1 {
+    position: absolute;
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dont-disturb {
+    width: 8px;
+    height: 2px;
+    background-color: black;
+}
+
+.isonline-friend2 {
+    position: absolute;
+    background-color: #2b9b54;
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+
+.isonline-friend3 {
+    position: absolute;
+    background-color: gray;
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offline {
+    background-color: #2c2d30;
+    width: 6px;
+    height: 6px;
+    border-radius: 20px;
+}
+
+.friend1-name, .friend2-name, .friend3-name {
+    color: #7e828b;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main-user {
+    position: fixed;
+    width: 235px;
+    height: 50px;
+    background-color: #242527;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.isonline-user {
+    position: absolute;
+    background-color: #2b9b54;
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+    margin-left: 33px;
+    border-radius: 20px;
+}
+
+.main-user-profile-div {
+    margin-left: 10px;
+}
+
+.main-user-pic {
+    width: 35px;
+}
+
+.username {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.name {
+    color: #dadada;
+    margin-right: 10px;
+}
+
+.status {
+    color: #9c9c9c;
+    font-size: 12px;
+}
+
+.microphone-div, .earphone-div, .settings-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.15s;
+    margin-right: 3px;
+}
+
+.microphone-div:hover, .earphone-div:hover, .settings-div:hover {
+    background-color: #44464b;
+    cursor: pointer;
+}
+
+
+.microphone, .earphone, .settings {
+    width: 20px;
+}
+
+.microphone-hide, .earphone-hide {
+    display: none;
+}

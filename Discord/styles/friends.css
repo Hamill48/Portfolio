@@ -1,0 +1,167 @@
+body {
+    background-color: #323338;
+    margin: 0;
+}
+
+.separator3 {
+    position: fixed;
+    height: 2px;
+    background-color: #191b1d48;
+    margin-bottom: 10px;
+    margin-top: 55px;
+    left: 305px;
+    right: 0;
+}
+
+.friends-main {
+    margin-left: 297px;
+}
+
+.friend-nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends-icon-nav {
+    width: 50px;
+}
+
+.nav-text {
+    color: #dadada;
+    font-weight: bold;
+}
+
+.separator4 {
+    width: 2px;
+    height: 25px;
+    background-color: rgb(55, 59, 61);
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.online {
+    color:#dadada;
+    font-weight: bold;
+    background-color: #3f4046;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.all, .pending, .blocked {
+    color:#7e828b;
+    font-weight: bold;
+    padding: 5px 7px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.all:hover, .pending:hover, .blocked:hover {
+    border-radius: 5px;
+    background-color: #3e3f46;
+    cursor: pointer;
+    color: #bbbbbb;
+}
+
+.add-friend {
+    background-color:#248046;
+    color: #dadada;
+    font-weight: bold;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.add-friend:hover {
+    cursor: pointer;
+}
+
+.friends-online-search {
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;    
+}
+
+.search-icon {
+    position: fixed;
+    top: 85px;
+    right: 50px;
+    width: 20px;
+}
+
+.friends-search-input {
+    background-color: black;
+    border: none;
+    flex: 1;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    outline: none;
+    color: #dadada;
+    font-size: 15px;
+}
+
+.online-friends-text {
+    color: #dadada;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 12px;
+}
+
+.separator5 {
+    position: fixed;
+    height: 1px;
+    background-color: rgb(69, 75, 77);
+    right: 0;
+    left: 330px;
+    border-radius: 20px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.friend1-online, .friend2-online {
+    display: flex;
+    flex: 1;
+    margin-left: 25px;
+    margin-top: 30px;
+    align-items: center;
+    height: 50px;
+    border-radius: 7px;
+    margin-right: 35px;
+    padding-left: 5px;
+}
+
+.friend1-online:hover, .friend2-online:hover {
+    background-color: #4c4e55;
+}
+
+
+.friend-online-name {
+    color: #dadada;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.status {
+    color: #7e828b;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.friend2-online {
+    margin-top: 5px;
+}
