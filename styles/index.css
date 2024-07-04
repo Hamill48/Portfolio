@@ -159,21 +159,15 @@ body {
     height: auto;
 }
 
-.discord {
-    border-radius: 10px;
-    width: 100%;
+.projects img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
 }
 
-.discord:hover, .rock-paper-scissors:hover {
+.projects img:hover {
     cursor: pointer;
     box-shadow: 0px 0px 1px 3px rgb(255, 179, 87);
-}
-
-.rock-paper-scissors {
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    width: 100%;
 }
 
 .email, .phone-number {
@@ -224,56 +218,25 @@ footer a:hover {
     }
 }
 
-@media (max-width: 500px) {
-    .projects div {
-        max-width: 150px;
-        height: auto;
+@media (max-width: 700px) {
+    .navbar a, .welcome-container p, .about-me-main, .my-studies{
+        font-size: calc(1rem * 0.7 + 0.9vw);
     }
 
-    .my-studies {
-        font-size: 15px;
+    .welcome, .me, .about-me-title .my-projects-title, .contact-title  {
+        font-size: calc(2rem * 0.7 + 0.9vw);
     }
 
-    .about-me-main {
-        font-size: 15px;
-        width: 80%;
+    .my-studies-title {
+        font-size: calc(1.5rem * 0.7 + 0.9vw);
     }
 
-    .navbar a {
-        font-size: 15px;
+    .logos img {
+        width: calc(150px * 0.7 + 0.9vw);
     }
 
-    h1 {
-        font-size: 25px;
-    }
-
-    h2 {
-        font-size: 21px;
-    }
-
-    .freepik, .fontawesome, .freepnglogos {
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 400px) {
-    .my-studies {
-        font-size: 12px;
-    }
-
-    .projects div {
-        max-width: 100px;
-        height: auto;
-    }
-}
-
-@media (max-width: 300px) {
-    .projects div {
-        max-width: 100px;
-        height: auto;
-    }
-
-    .freepik, .fontawesome, .freepnglogos {
-        font-size: 5px;
+    .projects div, .projects img {
+        width: calc(100px * 0.9 + 0.9vw);
+        height: calc(65px * 0.9 + 0.9vw);
     }
 }

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.397);
+}
+
+.navbar-container {
+    display: flex;
+    padding: 15px 15px;
+}
+
+.navbar-container div {
+    margin-right: 20px;
+}
+
+.navbar-container a {
+    color: rgb(112, 112, 112);
+}
+
+.navbar-container a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.title-container, .contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 120px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+.about-container, .faq-container {
+    padding-left: 15px;
+    max-width: 50%;
+    margin-bottom: 150px;
+}
+
+.about-container h2, .faq-container h2 {
+    margin-bottom: 5px;
+}
+
+.about-container div, .faq-container {
+    margin-bottom: 40px;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+}
+
+.faq {
+    margin-bottom: 50px;
+}
+
+.faq-title {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.faq-title:hover {
+    cursor: pointer;
+}
+
+.arrow-down {
+    width: 30px;
+    transition: transform 0.2s;
+}
+
+.arrow-up {
+    transform: rotate(180deg); 
+}
+
+.faq-paragraph {
+    display: none;
+}
+
+.faq-paragraph-active {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.contact-container p {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.email, .instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-icon, .instagram-icon {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.397);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+    .title {
+        font-size: calc(0.85rem + 0.9vw);
+    }
+
+    .logo {
+        max-width: calc(90px + 0.9vw);
+    }
+
+    .about-container p, .faq-paragraph-active {
+        font-size: calc(0.55rem + 0.9vw);
+    }
+
+    .arrow-down {
+        width: calc(0.94rem + 0.9vw);
+    }
+
+    .contact-container p {
+        font-size: calc(0.7rem + 0.9vw);
+    }
+
+    .links {
+        font-size: calc(0.65em + 0.9vw);
+    }
+
+    h2 {
+        font-size: calc(0.75rem + 0.9vw);
+    }
+
+    a {
+        font-size: calc(0.5rem + 0.9vw);
+    }
+
+    .email-icon, .instagram-icon {
+        max-width: calc(0.94rem + 0.9vw);
+    }
+}
