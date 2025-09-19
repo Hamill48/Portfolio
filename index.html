@@ -1,70 +1,273 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dávid Portfóliója</title>
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="navbar">
-        <div class="about-page"><a class="about-me" href="#about-me-id">Rólam</a></div>
-        <div class="projects-page"><a class="my-projects" href="#projects-id">Projektjeim</a></div>
-        <div class="contact-page"><a class="contact" href="#contact-id">Kapcsolat</a></div>
-    </div>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Fő navigáció">
+      <ul class="nav-list">
+        <li><a class="about-me" href="#about-me-id">Rólam</a></li>
+        <li><a class="my-projects" href="#projects-id">Projektjeim</a></li>
+        <li><a class="contact" href="#contact-id">Kapcsolat</a></li>
+      </ul>
+    </nav>
 
-    <div class="welcome-container">
-        <h1 class="welcome">Üdvözöllek!</h1>
-        <h1 class="me">Én Dávid vagyok</h1>
-        <img class="image" src="./pics/4884785.jpg" alt="image">
-        <p>Junior Front End Fejlesztő</p>
-    </div>
+    <section class="section section--hero" id="welcome-section">
+      <div class="container">
+        <div class="hero">
+          <div class="hero__content">
+            <h1 class="welcome">Üdvözöllek!</h1>
+            <h2 class="me">Én Dávid vagyok</h2>
+            <p class="subtitle">Junior Front End Fejlesztő</p>
+          </div>
+          <div class="hero__media">
+            <img
+              class="image"
+              src="./pics/4884785.jpg"
+              alt="Webfejlesztő illusztráció"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="about-me-container" id="about-me-id">
-        <h1 class="about-me-title">Rólam</h1>
-        <p class="about-me-main">
-            Jelenleg a Miskolci Egyetem hallgatója vagyok, gazdaságinformatikus szakon. Másfél év tapasztalatom van <span>HTML</span>-ben és <span>CSS</span>-ben.
-            Továbbá, egy év tapasztalatom van <span>JavaScript</span> és <span>Python</span> programkódban.
-        </p>
-        <h2 class="my-studies-title">Képesítéseim:</h2>
-        <div class="my-studies">
-            <p><span>&middot;</span> 2021 - 2022: Pénzügyi és számviteli ügyintéző (okj)</p>
-            <p><span>&middot;</span> 2023 - : Gazdaságinformatikus (bsc)</p>
+    <section class="section section--alt" id="about-me-id">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="about-me-title">Rólam</h2>
+        </header>
+
+        <div class="about">
+          <p class="about-me-main">
+            Jelenleg az Industry4You Marketing Ügynökségnél (RK-TEAM Digital
+            Kft.) dolgozom front-end fejlesztőként. Feladataim közé tartozik a
+            <span>UI/UX tervezés, weboldalak fejlesztése,</span> valamint
+            alkalmanként
+            <span>egyedi WordPress pluginek készítése React-ben.</span> Emellett
+            mobilalkalmazásokat is fejlesztek
+            <span>React Native</span> segítségével, és részt veszek azok
+            tervezési folyamatában is.
+          </p>
+
+          <p class="about-me-main">
+            Érdeklődöm a szoftverfejlesztés iránt, és folyamatosan képzem magam.
+            Jelenleg a <span>Node.js</span>-t tanulom, ahol jelenleg kisebb
+            projekteken keresztül gyakorlom az adatbázis-kezelést, valamint
+            API-k tervezését és fejlesztését – ezzel nagyjából 4 hónapja
+            foglalkozom rendszeresen. Szabadidőmben szeretek játékfejlesztéssel
+            foglalkozni Unity-ben, valamint 3D modelleket készíteni Blenderben.
+            Jelenleg is dolgozom egy saját <span>Android applikáción</span> is.
+          </p>
+
+          <h3 class="my-studies-title">Munkatapasztalat:</h3>
+          <div class="my-studies">
+            <p>
+              <span>&middot;</span> 2024 – jelenleg: Industry4You Marketing
+              Ügynökség (front-end fejlesztő)
+            </p>
+          </div>
+
+          <h3 class="my-studies-title">Képesítéseim:</h3>
+          <div class="my-studies">
+            <p>
+              <span>&middot;</span> 2021 – 2022: Pénzügyi és számviteli
+              ügyintéző (OKJ)
+            </p>
+            <p>
+              <span>&middot;</span> 2023 – jelenleg: Gazdaságinformatikus (BSc)
+            </p>
             <p><span>&middot;</span> Angol B2 nyelvvizsga (társalgási szint)</p>
-            <p><span>&middot;</span> B kategóriás jogosítvány (5 év vezetés)</p>
-        </div>
-        <div class="logos">
-            <img src="./pics/html-js-css-logo.png" alt="html, javascript, css"><br/>
-        </div>
-    </div>
+            <p><span>&middot;</span> B kategóriás jogosítvány (7 év vezetés)</p>
+          </div>
 
-    <div class="projects-container" id="projects-id">
-        <h1 class="my-projects-title">Projektjeim</h1>
-        <div class="projects">
-            <div><a href="./DBsWebsite/index.html" target="_blank"><img class="dbs-website" src="./pics/dbs-website-logo.jpeg" alt="dbs-website"></a></div>
-            <div><a href="./Discord/index.html" target="_blank"><img class="discord" src="./pics/discord-project.webp" alt="discord"></a></div>
-            <div><a href="./rock-paper-scissors/rock-paper-scissors.html" target="_blank"><img class="rock-paper-scissors" src="./pics/rock-paper-scissors.jpg" alt="rock paper scissors"></a></div>        
+          <div class="logos">
+            <img
+              src="./pics/html-js-css-logo.png"
+              alt="HTML, CSS és JavaScript logók"
+            />
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="contact-container" id="contact-id">
-        <h1 class="contact-title">Vedd fel velem a kapcsolatot</h1>
-        <div class="email">davidszenyita@gmail.com</div>
-        <div class="phone-number">+36 70 391 7390</div>
-        <div class="contact-logos">
-            <a href="https://github.com/Hamill48/Portfolio" target="_blank"><img class="github" src="./pics/github-logo.png" alt="github"></a>
-            <a href="https://www.linkedin.com/in/david-szenyita-46b99b27b/?originalSubdomain=hu" target="_blank"><img class="linkedin" src="./pics/linkedin-logo.webp" alt="linkedin"></a>
-        </div>        
-    </div>
+    <section class="section" id="projects-id">
+      <div class="container" style="margin-bottom: 80px">
+        <header class="section__header">
+          <h2 class="my-projects-title">Főbb projektem</h2>
+          <p>Növénykezelő alkalmazás jelenleg csak androidra (félkész)</p>
+          <p>GitHub-repo linket kérésre szívesen csatolok.</p>
+        </header>
 
-    <footer>
-        <a class="freepik" target="_blank" href="https://www.freepik.com/free-vector/hand-drawn-web-developers_12063795.htm#fromView=search&page=1&position=4&uuid=49063398-3165-4d03-a819-8852acef08f8">Image by freepik</a>
-        <a class="fontawesome" target="_blank" href="https://fontawesome.com">Fonts by Font Awesome</a>
-        <a class="freepnglogos" target="_blank" href="https://www.freepnglogos.com/">HTML, CSS, JS picture by Freepnglogos</a>
+        <div class="projects" role="list">
+          <a
+            class="project-card"
+            href="https://www.figma.com/design/GF0uhRztJpbM0KM0b866pl/Mobil-N%C3%B6v%C3%A9ny?node-id=0-1&t=5pny5DVQQQWGp4HT-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="listitem"
+            aria-label="Mobilnövény figma terve megnyitása új lapon"
+          >
+            <img src="./pics/figma_logo.png" alt="Mobilnövény figma előnézet" />
+          </a>
+
+          <a
+            class="project-card"
+            href="https://drive.google.com/file/d/1WCVqnAeFi91S-uXMMZBJy4jeO03AuBqz/view?usp=sharing"
+            rel="noopener noreferrer"
+            target="_blank"
+            role="listitem"
+            aria-label="Mobilnövény android fájl linkje"
+          >
+            <img
+              src="./pics/mobilnoveny-kep.png"
+              alt="Discord projekt előnézet"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="container" style="margin-bottom: 80px">
+        <header class="section__header">
+          <h2 class="my-projects-title">Régebbi projektjeim</h2>
+          <p>(Ezek nem reszponzívak, asztali nézetben működnek megfelelően!)</p>
+        </header>
+
+        <div class="projects" role="list">
+          <a
+            class="project-card"
+            href="https://pve-game.netlify.app/"
+            target="_blank"
+            role="listitem"
+            aria-label="PVE játék projekt megnyitása új lapon"
+            rel="noopener noreferrer"
+          >
+            <img src="/pics/pve-game.png" alt="PVE játék előnézet" />
+          </a>
+
+          <a
+            class="project-card"
+            href="./Discord/index.html"
+            target="_blank"
+            role="listitem"
+            aria-label="Discord klón projekt megnyitása új lapon"
+          >
+            <img
+              src="./pics/discord-project.webp"
+              alt="Discord projekt előnézet"
+            />
+          </a>
+
+          <a
+            class="project-card"
+            href="./rock-paper-scissors/rock-paper-scissors.html"
+            target="_blank"
+            role="listitem"
+            aria-label="Kő-Papír-Olló projekt megnyitása új lapon"
+          >
+            <img
+              src="./pics/rock-paper-scissors.jpg"
+              alt="Kő-Papír-Olló előnézet"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <header class="section__header">
+          <h2 class="my-projects-title">Egyéb projekteim</h2>
+          <p>
+            Több kisebb elkészült Unity, WordPress, Figma projekt, amelyet
+            szükség esetén csatolni tudok.
+          </p>
+          <p>
+            Jelenleg is fejlesztés alatt állóról X-en szoktam posztolni:
+            <a
+              href="https://x.com/Hamill48dev"
+              target="_blank"
+              style="color: aliceblue"
+              rel="noopener noreferrer"
+              >X link</a
+            >
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contact-id">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="contact-title">Vedd fel velem a kapcsolatot!</h2>
+        </header>
+
+        <div class="contact">
+          <div>
+            <div style="margin-bottom: 20px" class="contact__pill email">
+              davidszenyita@gmail.com
+            </div>
+            <div class="contact__pill phone-number">70 391 7390</div>
+          </div>
+
+          <div class="contact-logos" aria-label="Közösségi linkek">
+            <a
+              href="https://github.com/Hamill48/Portfolio"
+              target="_blank"
+              aria-label="GitHub profil"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="github"
+                src="./pics/github-logo.png"
+                alt="GitHub logó"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/david-szenyita-46b99b27b/?originalSubdomain=hu"
+              target="_blank"
+              aria-label="LinkedIn profil"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="linkedin"
+                src="./pics/linkedin-logo.webp"
+                alt="LinkedIn logó"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a
+        class="freepik"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.freepik.com/free-vector/hand-drawn-web-developers_12063795.htm#fromView=search&page=1&position=4&uuid=49063398-3165-4d03-a819-8852acef08f8"
+        >Image by freepik</a
+      >
+      <a
+        class="fontawesome"
+        target="_blank"
+        href="https://fontawesome.com"
+        rel="noopener noreferrer"
+        >Fonts by Font Awesome</a
+      >
+      <a
+        class="freepnglogos"
+        target="_blank"
+        href="https://www.freepnglogos.com/"
+        rel="noopener noreferrer"
+        >HTML, CSS, JS picture by Freepnglogos</a
+      >
     </footer>
-
-</body>
+  </body>
 </html>
